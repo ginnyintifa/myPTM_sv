@@ -1322,7 +1322,7 @@ int main(int argc, char *argv[])
     cout<<truepositive<<" "<<falsepositive<<" "<<truenegative<<" "<<falsenegative<<endl;
     
     
-    outfile.open("output_shrink.tsv");
+    outfile.open("reduced_output.tsv");
     
     outfile<<"Prot"<<"\t"<<"ID"<<"\t"<<"Seq"<<"\t"<<"State_1"<<"\t"<<"Observed_state"<<"\t"<<"Psp_state"<<"\t"<<"Filtered_state"<<"\t"<<"Hydrophobicity"<<"\t"<<"Pka1"<<"\t"<<"Helix_probability"<<"\t"<<"Steric_parameter"<<"\t"<<"Polarizability"<<"\t"<<"Volume"<<"\t"<<"Sheet_probability"<<endl;
     
