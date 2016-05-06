@@ -1,0 +1,68 @@
+>LENGTH_WINDOW=11
+
+
+>LENGTH_OVERLAP=2
+
+
+##change of likelihood you expect
+
+>STOP_CRITERION=0.005
+
+
+##choosing data depends on the number of blocks in each state
+
+
+### add files into the parameters
+
+
+>FASTA_NAME=NI_HUMAN.tsv
+
+>PEPSITE_NAME=humansitepep.tsv
+
+
+>PRED_SITES=y
+
+
+>PROB_THRESHOLD=0.8
+
+
+
+
+
+
+###the emission files you wish to use in your HMM
+
+>BACK_HYDRO=hydro_emi.tsv
+>BACK_PKA1=pka1_emi.tsv
+>BACK_HELIXPRO=helixpro_emi.tsv
+>BACK_STERICPAR=stericpar_emi.tsv
+>BACK_POLAR=polar_emi.tsv
+>BACK_VOLUME=volume_emi.tsv
+>BACK_SHEETPRO=sheetpro_emi.tsv
+>BACK_AAFREQ=aafreq_emi.tsv
+
+
+###in the following please specify the properties you want to use
+
+
+>hydrophobicity=YES
+>pka1=YES
+>helixpro=YES
+>stericpar=YES
+>polar=YES
+>volume=YES
+>sheetpro=YES
+>aafreq=YES
+
+
+##this is to provide the phosphosite plus information to make comparison
+
+>BACK_STATES=back_states.tsv
+
+
+###these values are for T test
+
+##default is 0.8
+
+
+>T_SIGNI=0.05

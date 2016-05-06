@@ -1,0 +1,22 @@
+### length of block and overlap can be changed in your wish
+
+>LENGTH_WINDOW=11
+
+
+>LENGTH_OVERLAP=2
+
+>FASTA_NAME=NI_HUMAN.tsv
+
+
+
+
+##specify the peptides with sites indicated to get your emission files to proceed to test
+
+>PRED_SITES=y
+
+>EXTERNAL_INFO=phospho_humansites.tsv
+>EXPERIMENTAL_INFO=humansitepep.tsv
+
+
+
+
